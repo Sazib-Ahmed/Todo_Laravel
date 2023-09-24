@@ -27,5 +27,5 @@ Route::middleware([
     })->name('dashboard');
 });
 
-
+//To add custom routes for jetstream.
 require __DIR__ . '/jetstream.php';
